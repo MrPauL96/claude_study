@@ -1,11 +1,17 @@
 [
   {
-    "task": "Write a Python function that parses an AWS S3 bucket URI (e.g., 's3://my-bucket/path/to/file.txt') and returns a dictionary with keys 'bucket' and 'key'"
+    "task": "Extract all EC2 instance IDs from AWS CloudTrail logs that match the pattern 'i-' followed by 17 hexadecimal characters",
+    "format": "regex",
+    "solution_criteria": "Regex should match EC2 instance IDs (i-0123456789abcdef0) and not match partial strings or malformed IDs"
   },
   {
-    "task": "Create a JSON object representing an AWS IAM policy that allows read-only access to all objects in an S3 bucket named 'my-data-bucket'"
+    "task": "Parse an AWS S3 bucket policy JSON and extract all principals that have 's3:GetObject' permission",
+    "format": "python",
+    "solution_criteria": "Function should return a list of unique principals (ARNs or principals) that have s3:GetObject permission, handling nested Statement arrays"
   },
   {
-    "task": "Write a regex pattern that matches valid AWS EC2 instance IDs (format: i- followed by 17 hexadecimal characters)"
+    "task": "Create a JSON template for an AWS Lambda execution role trust policy that allows the Lambda service to assume the role",
+    "format": "json",
+    "solution_criteria": "JSON should be valid IAM trust policy with correct service principal 'lambda.amazonaws.com' and AssumeRole action"
   }
 ]

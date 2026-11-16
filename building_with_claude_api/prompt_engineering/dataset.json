@@ -1,0 +1,51 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "endurance cycling performance",
+      "restrictions": "vegan, gluten-free, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan accommodates all three dietary restrictions (vegan, gluten-free, no nuts)",
+      "Provides adequate carbohydrates and protein for endurance athletic performance",
+      "Includes 3 meals and snacks structured across one day",
+      "All meals and snacks are specified with no vague descriptions"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete having multiple dietary restrictions (e.g., vegan endurance cyclist) to verify the prompt can accommodate constraints while maintaining nutritional completeness for athletic performance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with carbohydrate loading for a race day in 2 days",
+      "restrictions": "Vegetarian, no tree nuts"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals plus 2-3 snacks distributed throughout the day",
+      "Includes high carbohydrate content (60-70% of calories) with strategic timing around training windows",
+      "Respects vegetarian diet and avoids tree nuts",
+      "Provides approximately 3,000-3,200 calories appropriate for marathon training phase"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity sport athlete (e.g., marathon runner) requiring significant caloric intake and carbohydrate loading with specific timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "168 cm",
+      "weight": "62 kg",
+      "goal": "Maintain lean muscle mass while maximizing strength-to-weight ratio for rock climbing",
+      "restrictions": "Vegetarian, no dairy"
+    },
+    "solution_criteria": [
+      "Meal plan contains exactly 3 meals spanning one full day",
+      "Total daily calories are appropriate for weight maintenance (approximately 1,860-2,100 kcal)",
+      "Protein content is at least 100g daily distributed across meals",
+      "All meals respect vegetarian and dairy-free restrictions",
+      "Meals emphasize nutrient-dense, low-volume foods suitable for weight-conscious athletes"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-conscious sport athlete (e.g., rock climber or gymnast) requiring low-calorie, high-protein meals with emphasis on nutrient density rather than volume"
+  }
+]

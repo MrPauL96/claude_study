@@ -1,0 +1,66 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Endurance Cycling\n**Athlete Profile:** 175cm, 68kg | Vegan, Gluten-Free, No Nuts\n\n---\n\n## NUTRITIONAL TARGETS\n- **Calories:** ~2,800-3,000 kcal\n- **Carbs:** 55-60% (385-450g) \u2013 fuel for endurance\n- **Protein:** 15-17% (105-125g) \u2013 recovery & adaptation\n- **Fat:** 20-25% (60-85g) \u2013 hormone function\n\n---\n\n## \ud83c\udf05 BREAKFAST (7:00 AM)\n**Quinoa & Berry Power Bowl**\n- 1 cup cooked quinoa (222 kcal, 8g protein)\n- 1 cup mixed berries (85 kcal, 1g protein)\n- \u00bd cup soy milk (20 kcal, 2g protein)\n- 2 tbsp ground flaxseed (110 kcal, 4g protein)\n- 1 tbsp maple syrup (52 kcal)\n- Cinnamon & salt\n\n**Total: 489 kcal | 15g protein**\n\n---\n\n## \ud83e\udd64 PRE-RIDE SNACK (10:30 AM \u2013 1.5 hrs before ride)\n**Carb-Loading Fuel**\n- 2 rice cakes (140 kcal, 3g protein)\n- 2 tbsp sunflower seed butter (190 kcal, 7g protein)\n- 1 banana (105 kcal, 1g protein)\n- Water\n\n**Total: 435 kcal | 11g protein**\n\n---\n\n## \ud83d\udeb4 DURING RIDE (2-3 hour endurance session)\n**On-Bike Fueling**\n- Sports drink or water every 15-20 min\n- Rice cakes or dates for carbs mid-ride (every 45 min)\n- Electrolyte tablets for sodium replacement\n\n---\n\n## \ud83e\udd57 LUNCH (1:30 PM \u2013 post-ride recovery)\n**Lentil & Sweet Potato Buddha Bowl**\n- 1.5 cups roasted sweet potato (103 kcal, 2g protein)\n- 1 cup cooked red lentils (230 kcal, 18g protein)\n- 2 cups mixed greens (14 kcal, 2g protein)\n- \u00bd avocado (120 kcal, 1.5g protein)\n- 2 tbsp tahini dressing (180 kcal, 5g protein)\n- Lemon juice, garlic, salt\n\n**Total: 647 kcal | 28.5g protein**\n\n---\n\n## \ud83c\udf4c AFTERNOON SNACK (4:00 PM)\n**Recovery Smoothie**\n- 1 cup unsweetened oat milk (30 kcal, 2g protein)\n- 1 scoop vegan protein powder (120 kcal, 20g protein)\n- 1 banana (105 kcal, 1g protein)\n- 2 tbsp pea protein powder (80 kcal, 16g protein)\n- 1 tbsp maple syrup (52 kcal)\n- Ice\n\n**Total: 387 kcal | 39g protein**\n\n---\n\n## \ud83c\udf5d DINNER (7:00 PM)\n**Chickpea Pasta Primavera**\n- 1.5 cups cooked gluten-free pasta (375 kcal, 8g protein)\n- 1 cup cooked chickpeas (269 kcal, 12g protein)\n- 1.5 cups roasted vegetables: broccoli, zucchini, bell pepper (90 kcal, 5g protein)\n- 2 tbsp olive oil (180 kcal)\n- Garlic, herbs, lemon\n\n**Total: 914 kcal | 25g protein**\n\n---\n\n## \ud83c\udf19 EVENING SNACK (9:30 PM \u2013 optional)",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "175",
+        "weight": "68",
+        "goal": "endurance cycling performance",
+        "restrictions": "vegan, gluten-free, no nuts"
+      },
+      "solution_criteria": [
+        "Meal plan accommodates all three dietary restrictions (vegan, gluten-free, no nuts)",
+        "Provides adequate carbohydrates and protein for endurance athletic performance",
+        "Includes 3 meals and snacks structured across one day",
+        "All meals and snacks are specified with no vague descriptions"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with an athlete having multiple dietary restrictions (e.g., vegan endurance cyclist) to verify the prompt can accommodate constraints while maintaining nutritional completeness for athletic performance"
+    },
+    "score": 3,
+    "reasoning": "The solution meets most mandatory requirements with excellent detail on meals, portions, timing, and macronutrient information. However, it critically fails to provide a complete daily caloric total and final macronutrient breakdown because the evening snack is incomplete (section header present but no foods listed). This is a mandatory requirement violation. The during-ride fueling also lacks the specificity required ('exact foods, portions'). While the meal plan is otherwise well-constructed and properly addresses all dietary restrictions, the incomplete final section prevents verification of whether daily nutritional targets are actually met."
+  },
+  {
+    "output": "# One-Day Meal Plan for Rock Climbing Performance\n**Goal: Lean muscle maintenance | 2,200-2,400 calories | High protein, plant-based, dairy-free**\n\n---\n\n## BREAKFAST (7:00 AM)\n**Protein Pancakes with Berry Compote**\n- 2 oat flour pancakes (made with chickpea flour, banana, baking powder)\n- 1 tbsp almond butter\n- \u00bd cup mixed berries with chia seeds\n- 1 cup unsweetened almond milk\n\n**Nutrition:** 420 cal | 16g protein | 62g carbs | 12g fat\n\n---\n\n## MID-MORNING SNACK (10:00 AM)\n**Pre-Climb Fuel**\n- 1 medium banana\n- \u00bc cup raw almonds\n- 1 tbsp tahini\n\n**Nutrition:** 280 cal | 10g protein | 28g carbs | 15g fat\n\n---\n\n## LUNCH (1:00 PM)\n**Mediterranean Buddha Bowl**\n- 1 cup cooked quinoa\n- \u00be cup marinated tofu (baked)\n- \u00bd cup roasted chickpeas\n- Mixed greens, cucumber, cherry tomatoes\n- 2 tbsp tahini-lemon dressing\n- Nutritional yeast (2 tbsp)\n\n**Nutrition:** 520 cal | 24g protein | 58g carbs | 18g fat\n\n---\n\n## AFTERNOON SNACK (4:00 PM)\n**Post-Training Recovery**\n- 1 serving plant-based protein smoothie:\n  - 1 cup fortified soy milk\n  - 1 scoop pea/rice protein powder\n  - \u00bd frozen banana\n  - 1 tbsp almond butter\n\n**Nutrition:** 280 cal | 25g protein | 24g carbs | 8g fat\n\n---\n\n## DINNER (7:00 PM)\n**Lentil & Vegetable Stir-Fry**\n- 1 cup cooked brown lentils\n- 2 cups mixed vegetables (broccoli, bell peppers, snap peas)\n- 2 tbsp coconut oil for cooking\n- 1-inch fresh ginger, garlic, low-sodium tamari\n- Served over \u00be cup white rice\n\n**Nutrition:** 480 cal | 18g protein | 68g carbs | 12g fat\n\n---\n\n## EVENING (Optional)\n**Herbal tea + 1 oz pumpkin seeds**\n\n**Nutrition:** 160 cal | 9g protein | 4g carbs | 13g fat\n\n---\n\n## DAILY TOTALS\n| Metric | Amount |\n|--------|--------|\n| **Calories** | 2,140 |\n| **Protein** | 102g (19% of intake) \u2713 |\n| **Carbs** | 244g (46% of intake) \u2713 |\n| **Fat** | 78g (33% of intake) \u2713 |\n| **Fiber** | ~38g \u2713 |\n\n---\n\n## KEY NUTRITIONAL STRATEGIES FOR YOUR GOALS\n\n\u2705 **Protein Distribution:** 20-25g per meal for optimal muscle synthesis  \n\u2705 **High-Carb Around Training:** Banana pre-climb, smoothie post-climb  \n\u2705 **Lightweight Protein Sources:** Tofu, lentils, legumes vs. heavy meats  \n\u2705 **Micronutrient Density:** Fortified milks, nutritional yeast (B12), tahini (calcium/minerals)  \n\u2705 **Hydration:** Add 2-3L water daily; electrolyte drink during climbing sessions\n\n---\n\n## PERSONALIZATION TIPS\n- Adjust portions based on climbing intensity (\u00b1200 cal on heavy training days)\n- Swap grains (quinoa \u2194 farro \u2194 millet) for variety\n- Include B12 supplement or fortified foods daily\n- Consider iron-rich meals with vitamin C (lentils + tomatoes) for optimal absorption",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "168 cm",
+        "weight": "62 kg",
+        "goal": "Maintain lean muscle mass while maximizing strength-to-weight ratio for rock climbing",
+        "restrictions": "Vegetarian, no dairy"
+      },
+      "solution_criteria": [
+        "Meal plan contains exactly 3 meals spanning one full day",
+        "Total daily calories are appropriate for weight maintenance (approximately 1,860-2,100 kcal)",
+        "Protein content is at least 100g daily distributed across meals",
+        "All meals respect vegetarian and dairy-free restrictions",
+        "Meals emphasize nutrient-dense, low-volume foods suitable for weight-conscious athletes"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a weight-conscious sport athlete (e.g., rock climber or gymnast) requiring low-calorie, high-protein meals with emphasis on nutrient density rather than volume"
+    },
+    "score": 3,
+    "reasoning": "The solution demonstrates excellent nutritional knowledge and provides comprehensive, well-balanced guidance for a rock climber. However, it contains a fundamental structural violation: the criteria explicitly state 'exactly 3 meals spanning one full day,' yet the solution provides 5-6 eating occasions (breakfast, mid-morning snack, lunch, afternoon snack, dinner, plus optional evening). This is a mandatory requirement violation. Additionally, the 2,140 calorie total slightly exceeds the 1,860-2,100 kcal maintenance range, though only marginally. While the solution excels in nutritional quality, protein distribution, and dietary compliance, the meal structure directly contradicts the stated requirements."
+  },
+  {
+    "output": "# One-Day Carb-Loading Meal Plan for Marathon Runner\n**178 cm | 68 kg | Vegetarian, No Tree Nuts**\n\n---\n\n## Daily Nutrition Targets\n- **Calories:** ~3,200-3,400 kcal\n- **Carbohydrates:** 65-70% (520-560g) \u2014 emphasis on race prep\n- **Protein:** 15-18% (120-135g)\n- **Fat:** 15-20% (50-75g)\n- **Fiber:** Moderate (to avoid GI issues before race)\n\n---\n\n## BREAKFAST (7:00 AM)\n**Oatmeal Power Bowl**\n- 1.5 cups cooked oatmeal\n- 1 banana, sliced\n- 2 tbsp sunflower seed butter\n- 1 tbsp honey\n- Dash of cinnamon\n- Herbal tea or water\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 520 kcal | 75g | 16g | 15g |\n\n---\n\n## MID-MORNING SNACK (10:00 AM)\n**Hydration & Quick Carbs**\n- 1 large bagel with jam\n- Coconut water (16 oz)\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 380 kcal | 85g | 10g | 2g |\n\n---\n\n## LUNCH (1:00 PM)\n**Pasta with Lentil Bolognese**\n- 2 cups cooked pasta\n- 1 cup cooked lentils (prepared with marinara sauce)\n- 2 tbsp olive oil in sauce\n- Small side salad with olive oil dressing\n- 1 slice whole grain bread\n- Fruit juice (8 oz)\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 850 kcal | 130g | 35g | 20g |\n\n---\n\n## AFTERNOON SNACK (4:00 PM)\n**Easy Carbs**\n- 3 rice cakes with jam\n- 1 cup orange juice\n- 1 banana\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 420 kcal | 105g | 5g | 1g |\n\n---\n\n## DINNER (7:00 PM)\n**Sweet Potato & Chickpea Buddha Bowl**\n- 1.5 cups roasted sweet potato\n- \u00be cup roasted chickpeas\n- 1 cup cooked quinoa\n- \u00bd cup steamed broccoli\n- Tahini dressing (2 tbsp tahini + lemon)\n- Herbal tea\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 680 kcal | 105g | 22g | 18g |\n\n---\n\n## EVENING SNACK (9:30 PM)\n**Light Pre-Sleep Carbs**\n- 1.5 cups white rice cereal\n- 1 cup plant-based milk\n- 1 tbsp sunflower seeds (sprinkled on top)\n\n| Calories | Carbs | Protein | Fat |\n|----------|-------|---------|-----|\n| 320 kcal | 60g | 8g | 6g |\n\n---\n\n## DAILY TOTALS\n| Metric | Amount |\n|--------|--------|\n| **Total Calories** | 3,150 kcal |\n| **Total Carbs** | 560g (71%) \u2713 |\n| **Total Protein** | 96g (12%) |\n| **Total Fat** | 62g (18%) |\n\n---\n\n## Hydration Strategy\n- **Total fluid target:** 3-4 liters throughout the day\n- Water with meals + between meals\n- Electrolyte drink with afternoon snack\n- Limit caffeine after 4 PM (avoid sleep disruption)\n\n---\n\n## Race Day Notes (",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with carbohydrate loading for a race day in 2 days",
+        "restrictions": "Vegetarian, no tree nuts"
+      },
+      "solution_criteria": [
+        "Meal plan covers all 3 meals plus 2-3 snacks distributed throughout the day",
+        "Includes high carbohydrate content (60-70% of calories) with strategic timing around training windows",
+        "Respects vegetarian diet and avoids tree nuts",
+        "Provides approximately 3,000-3,200 calories appropriate for marathon training phase"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity sport athlete (e.g., marathon runner) requiring significant caloric intake and carbohydrate loading with specific timing around training windows"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully fulfills all three mandatory requirements with precision: daily totals are clearly stated, macronutrient breakdown is detailed with percentages, and all meals include exact foods, portions, and specific times. The meal plan demonstrates strong nutritional knowledge for carb-loading with appropriate timing and variety. However, the protein target underperformance (96g vs. 120-135g recommended) represents a meaningful deviation from stated targets, and the incomplete ending suggests quality control issues. Despite these weaknesses, the core deliverables are solid and the plan would be functional for the stated goal."
+  }
+]
