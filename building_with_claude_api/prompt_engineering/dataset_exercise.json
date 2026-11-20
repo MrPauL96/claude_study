@@ -1,0 +1,52 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "Recent studies demonstrate the complex interplay between economic inequality and psychological well-being across diverse populations. Piketty's analysis of wealth concentration reveals that income disparities have widened significantly in developed nations, correlating with increased rates of anxiety and depression documented in epidemiological surveys. Sociologically, this phenomenon reflects shifting labor market dynamics and eroding social cohesion, as communities with greater economic stratification report lower levels of trust and civic engagement. Furthermore, behavioral economics research suggests that relative deprivation\u2014the perception of unfair inequality\u2014triggers neurobiological stress responses that compound mental health challenges, creating feedback loops that reinforce both economic and psychological disadvantage."
+    },
+    "solution_criteria": [
+      "Identifies all major disciplinary topics: economics, psychology, and sociology",
+      "Separates distinct concepts within each field (e.g., wealth concentration, anxiety/depression, social cohesion)",
+      "Returns output as valid JSON array of strings"
+    ],
+    "task_description": "\"\"\n    Extract topics out of a passage of text from a scholarly article into a JSON of strings\n    ",
+    "scenario": "Testing with a brief interdisciplinary passage that spans multiple fields (e.g., economics, psychology, sociology) to verify the prompt can identify and separate diverse topic areas"
+  },
+  {
+    "prompt_inputs": {
+      "content": "We synthesized a series of novel benzimidazole derivatives through nucleophilic aromatic substitution reactions, followed by palladium-catalyzed cross-coupling with various aryl boronic acids. The resulting compounds were characterized using high-performance liquid chromatography (HPLC), mass spectrometry (MS), and nuclear magnetic resonance (NMR) spectroscopy. Biological evaluation revealed that compounds 5 and 7 exhibited potent inhibition of tyrosine kinase receptors with IC50 values of 0.42 and 0.38 \u03bcM respectively, while maintaining selectivity over off-target serine/threonine kinases. Structure-activity relationship (SAR) analysis indicated that electron-withdrawing substituents at the 5-position enhanced potency, whereas lipophilicity optimization improved cellular permeability and reduced hepatic metabolism via cytochrome P450 enzymes."
+    },
+    "solution_criteria": [
+      "Extracts all major chemical compounds and synthetic methods mentioned",
+      "Includes analytical techniques and biological assay terminology",
+      "Captures domain-specific concepts like structure-activity relationships and pharmacological properties",
+      "Returns results as a JSON array of strings"
+    ],
+    "task_description": "\"\"\n    Extract topics out of a passage of text from a scholarly article into a JSON of strings\n    ",
+    "scenario": "Testing with a highly technical scientific passage containing domain-specific jargon, chemical compounds, and methodologies to ensure proper extraction of specialized terminology"
+  },
+  {
+    "prompt_inputs": {
+      "content": "Postmodern epistemology challenges the foundational assumptions of representationalism by interrogating the relationship between signifier and signified within discourse networks. Drawing on Derridean deconstruction and Foucauldian genealogy, contemporary theorists argue that knowledge production is inherently situated within power relations that precede and constitute the subject. The hermeneutic circle, as articulated by Gadamer, suggests that understanding emerges through dialogical engagement rather than objective observation. Furthermore, the critique of essentialism advanced by Butler and others demonstrates how performative iterations construct identity categories retroactively, rendering the notion of stable ontological foundations untenable. These theoretical frameworks collectively interrogate the Enlightenment legacy of autonomous reason and advocate for a more nuanced phenomenological approach to meaning-making."
+    },
+    "solution_criteria": [
+      "Extracts all major philosophical concepts and theoretical frameworks mentioned (e.g., postmodern epistemology, deconstruction, genealogy, hermeneutics, performativity, phenomenology)",
+      "Captures names of key theorists and their associated ideas",
+      "Returns output as valid JSON with topics as strings in an array or object structure",
+      "Identifies nuanced intellectual topics that are central to the passage's argument, not just surface-level keywords"
+    ],
+    "task_description": "\"\"\n    Extract topics out of a passage of text from a scholarly article into a JSON of strings\n    ",
+    "scenario": "Testing with a humanities passage containing abstract philosophical concepts and theoretical frameworks to verify the prompt extracts nuanced intellectual topics"
+  },
+  {
+    "prompt_inputs": {
+      "content": "The emergence of CRISPR-Cas9 gene-editing technology has revolutionized molecular biology research, enabling precise modifications to DNA sequences with unprecedented efficiency. While the technique's applications in treating genetic disorders such as sickle cell disease show remarkable promise, the underlying ethical implications remain contentious within the scientific community. Germline editing\u2014modifications heritable across generations\u2014raises questions about consent, equity of access, and the potential for enhancement beyond therapeutic intervention. Furthermore, off-target effects and mosaicism in edited cells present technical challenges that must be resolved before widespread clinical adoption. The regulatory landscape across different nations reflects these tensions, with some jurisdictions permitting somatic cell therapy while prohibiting heritable modifications, highlighting the intersection of science policy, bioethics, and international governance."
+    },
+    "solution_criteria": [
+      "Identifies explicit topics directly mentioned (e.g., CRISPR-Cas9, gene editing, genetic disorders)",
+      "Captures implicit topics requiring contextual inference (e.g., bioethics, regulatory policy, technical challenges, equity)",
+      "Distinguishes between surface-level subjects and underlying themes (e.g., recognizing that consent and governance are thematic topics beyond literal mentions)"
+    ],
+    "task_description": "\"\"\n    Extract topics out of a passage of text from a scholarly article into a JSON of strings\n    ",
+    "scenario": "Testing with a passage containing implicit and explicit topics, where some topics require inference from context rather than direct mention, to assess the prompt's ability to recognize both surface-level and underlying subjects"
+  }
+]
